@@ -1,6 +1,6 @@
-# Webpack Starter
+# todoApp
 
-Este es el proyecto inicial para crear aplicaciones utilizando webpack.
+Este es el proyecto basico de una lista de actividades o (todoApp)
 
 ### Notas:
 Recuerden reconstruir los módulos de Node
