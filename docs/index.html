@@ -2,12 +2,12 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<title>Template • TodoMVC</title>
 		<style>
 			@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 		</style>
-	<link href="main.bb3769d566c7a6c2e197.css" rel="stylesheet"></head>
+	<link href="main.1b0efd40f746ef492cc9.css" rel="stylesheet"></head>
 	<body>
 		<section class="todoapp">
 			<header class="header">
@@ -19,30 +19,10 @@
 				<input id="toggle-all" class="toggle-all" type="checkbox">
 				<label for="toggle-all">Mark all as complete</label>
 				<ul class="todo-list">
-					<!-- These are here just to show the structure of the list items -->
-					<!-- List items should get the class `editing` when editing and `completed` when marked as completed -->
-					<!-- <li class="completed" data-id="abc">
-						<div class="view">
-							<input class="toggle" type="checkbox" checked>
-							<label>Probar JavaScript</label>
-							<button class="destroy"></button>
-						</div>
-						<input class="edit" value="Create a TodoMVC template">
-					</li> -->
-					<!-- <li>
-						<div class="view">
-							<input class="toggle" type="checkbox">
-							<label>Comprar un unicornio</label>
-							<button class="destroy"></button>
-						</div>
-						<input class="edit" value="Rule the web">
-					</li> -->
 				</ul>
 			</section>
 			<!-- This footer should hidden by default and shown when there are todos -->
 			<footer class="footer">
-				<!-- This should be `0 items left` by default -->
-				<span class="todo-count"><strong>0</strong> pendiente(s)</span>
 				<!-- Remove this if you don't implement routing -->
 				<ul class="filters">
 					<li>
@@ -54,9 +34,8 @@
 					<li>
 						<a class="filtro" href="#/completed">Completados</a>
 					</li>
+					<button class="clear-completed">Borrar</button>
 				</ul>
-				<!-- Hidden if no completed items are left ↓ -->
-				<button class="clear-completed">Borrar completados</button>
 			</footer>
 		</section>
 		<footer class="info">
@@ -65,5 +44,5 @@
 		</footer>
         
         
-	<script type="text/javascript" src="main.484cf4e9c2a354fd0308.js"></script></body>
+	<script type="text/javascript" src="main.4e710a10ba3a3df689f7.js"></script></body>
 </html>
