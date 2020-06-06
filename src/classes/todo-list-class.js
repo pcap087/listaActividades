@@ -35,6 +35,7 @@ export class TodoList{
     }
 
     guardarLocalStorage(){
+
         localStorage.setItem('todo', JSON.stringify( this.todos));
 
     }
@@ -43,7 +44,6 @@ export class TodoList{
         if (localStorage.getItem('todo')) {
 
             this.todos = JSON.parse(localStorage.getItem('todo'));
-            console.log(this.todos);
 
         }else{
 
