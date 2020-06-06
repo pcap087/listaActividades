@@ -22,9 +22,9 @@ button {
 
 body {
 	font-family: 'Courgette', cursive;
-	line-height: 1.4em;
-	background: #f5f5f5;
-	color: #111111;
+	line-height: 1.5em;
+	background: #ffffff;
+	color: #000000;
 	min-width: 230px;
 	max-width: 550px;
 	margin: 0 auto;
@@ -43,10 +43,10 @@ body {
 
 .todoapp {
 	background: #fff;
-	margin: 130px 0 40px 0;
+	margin: 150px 0 40px 0;
 	position: relative;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
-	            0 25px 50px 0 rgba(0, 0, 0, 0.1);
+	            0 25px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
 .todoapp input::-webkit-input-placeholder {
@@ -71,10 +71,10 @@ body {
 	position: absolute;
 	top: -140px;
 	width: 100%;
-	font-size: 80px;
-	font-weight: 200;
+	font-size: 90px;
+	font-weight: 2px;
 	text-align: center;
-	color: #ff6600;
+	color: #1473e6;
 	-webkit-text-rendering: optimizeLegibility;
 	-moz-text-rendering: optimizeLegibility;
 	text-rendering: optimizeLegibility;
@@ -85,7 +85,7 @@ body {
 	position: relative;
 	margin: 0;
 	width: 100%;
-	font-size: 24px;
+	font-size: 20px;
 	font-family: inherit;
 	font-weight: inherit;
 	line-height: 1.4em;
@@ -310,17 +310,16 @@ body {
 }
 
 .filters li a:hover {
-	background: #ff6600;
+	background: #049DD9;
 	color:white
 }
 
 .filters li a.selected {
-	border-color: #ff6600;
+	border-color: #049DD9;
 }
 
 .clear-completed,
 html .clear-completed:active {
-	float: right;
 	position: relative;
 	margin: -1px;
 	padding: 3px 5px;
@@ -329,14 +328,14 @@ html .clear-completed:active {
 }
 
 .clear-completed:hover {
-	background: #ff2600;
+	background: rgb(199, 30, 24);
 	color:white
 }
 
 .info {
 	margin: 65px auto 0;
 	color: #4d4d4d;
-	font-size: 11px;
+	font-size: 12px;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 	text-align: center;
 }
